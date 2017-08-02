@@ -1,0 +1,54 @@
+.cruiser-type-one {
+    position: relative;
+    display: block;
+    width: 410px;
+    max-width: 100%;
+    height: 2395px;
+    /* transform: rotate(90deg); */
+    background: url(../images/cruiser/cruiserOne.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    .cruiser-seat {
+	    border: 1px solid black;
+	    width: 66px;
+	    text-align: center;
+	    cursor: pointer;
+	    font-size: 13px;
+	}
+    .seat-allocation-container-left {
+		position: absolute;
+		top: 453px;
+		left: 58px;
+		.cruiser-seat {
+		    background: #00a651;
+		}
+	}
+	.seat-allocation-container-middle-left {
+		position: absolute;
+		top: 453px;
+		left: 135px;
+		.cruiser-seat {
+			width: 50px;
+			background: rgba(152,195,233, 0.5);
+		}
+	}
+
+	.seat-allocation-container-middle-right {
+		position: absolute;
+		top: 453px;
+		left: 197px;
+		.cruiser-seat {
+			width: 50px;
+			background: rgba(152,195,233, 0.5);
+		}
+	}
+	.seat-allocation-container-right {
+		position: absolute;
+		top: 453px;
+		left: 258px;
+		.cruiser-seat {
+		    background: #00a651;
+		}
+	}
+}
+

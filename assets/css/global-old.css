@@ -1,0 +1,315 @@
+.bus-build-actions {
+  margin-right: 15px;
+  margin-left: 15px; }
+
+.bus-display-name {
+  position: relative;
+  display: block;
+  margin: 15px;
+  clear: both; }
+
+.bus-builder-info {
+  margin: 15px; }
+
+.emphasis {
+  color: #5cb85c;
+  font-weight: 600; }
+
+.helper-info {
+  color: #d9534f;
+  font-weight: 600; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
+.row-spaced-Y {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.row-spaced-bottom-Y {
+  padding-bottom: 30px; }
+
+.categorize-seats .panel-collapse {
+  background: #f5f5f5;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+.bus-builder-form .form-group {
+  width: 48%;
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%; }
+
+.bus-builder-seat-box-container {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 600px; }
+
+.bus-builder-seat-box-container:last-of-type {
+  margin-top: 20px;}
+
+.seat_box {
+  display: inline-block;
+  height: 35px;
+  text-align: center;
+  width: 35px;
+  border: 1px solid #CCC; }
+  .seat_box.selected {
+    background-color: green;
+    color: #fff;
+    font-weight: bold; }
+  .seat_box.selected-wrong-input {
+    background-color: red;
+    color: #fff;
+    font-weight: bold; }
+
+.form-enter-seats {
+  margin: 10px 0; }
+
+.vehicle-set-up {
+  margin: 0 15px; }
+
+.big-bus-container {
+  margin-top: 15px; }
+
+.big-bus {
+  position: relative;
+  display: block;
+  width: 700px;
+  height: 315px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  padding: 12px;
+  background: #8da4b2;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px; }
+  .big-bus::after {
+    content: '';
+    display: table;
+    clear: both; }
+  .big-bus .bus-label-upper {
+    position: absolute;
+    display: inline-block;
+    left: 10px;
+    top: 24%;
+    height: 121px;
+    width: 25px;
+    background-image: url(../images/buses/upper-label.png);
+    background-repeat: no-repeat; }
+  .big-bus .big-bus-left-part {
+    width: 10%;
+    float: left; }
+  .big-bus .big-bus-right-part {
+    width: 90%;
+    float: right; }
+    .big-bus .big-bus-right-part div {
+      height: 35px; }
+  .big-bus .vehicle-steering-wheel {
+    display: block;
+    margin-top: 230px;
+    width: 29px;
+    height: 29px;
+    padding: 30px;
+    background: url(../images/buses/steering-wheel.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  .big-bus .vehicle-seat {
+    display: inline-block;
+    width: 27px;
+    height: 40px;
+    padding: 5px;
+    margin: 4px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    background-image: url(../images/buses/vehicle-seat-free.png);
+    background-repeat: no-repeat; }
+    .big-bus .vehicle-seat.selected {
+      color: white;
+      font-weight: bold;
+      background-image: url(../images/buses/vehicle-seat-selected.png); }
+
+  .big-bus .vehicle-washroom {
+    display: inline-block;
+    width: 27px;
+    height: 40px;
+    padding: 5px;
+    margin: 4px;
+    float: left;
+    background-image: url(../images/buses/amenities-washroom.png);
+    background-repeat: no-repeat; }
+
+  .big-bus .vehicle-tv {
+    display: inline-block;
+    width: 27px;
+    height: 40px;
+    padding: 5px;
+    margin: 4px;
+    float: left;
+    background-image: url(../images/buses/amenities-tv.png);
+    background-repeat: no-repeat; }
+
+  .big-bus .vehicle-coffee {
+    display: inline-block;
+    width: 27px;
+    height: 40px;
+    padding: 5px;
+    margin: 4px;
+    float: left;
+    background-image: url(../images/buses/amenities-coffee.png);
+    background-repeat: no-repeat; }
+	
+  .big-bus .vehicle-sleeper {
+    display: inline-block;
+    width: 62px;
+    height: 40px;
+    padding: 5px;
+    margin: 4px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    background-image: url(../images/buses/vehicle-sleeper-free.png);
+    background-repeat: no-repeat; }
+    .big-bus .vehicle-sleeper.selected {
+      color: white;
+      font-weight: bold;
+      background-image: url(../images/buses/vehicle-sleeper-selected.png); }
+
+  .big-bus .vehicle-sleeperv {
+    display: inline-block;
+    width: 27px;
+    height: 40px;
+    padding: 5px;
+    margin: 4px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    background-image: url(../images/buses/vehicle-sleeperv-free.png);
+    background-repeat: no-repeat; }
+    .big-bus .vehicle-sleeperv.selected {
+      color: white;
+      font-weight: bold;
+      background-image: url(../images/buses/vehicle-sleeperv-selected.png); }
+
+.amenities {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  text-align: right; }
+  .amenities .amenities-washroom {
+    display: inline-block;
+    width: 23px;
+    height: 26px;
+    margin: 5px;
+    background-image: url(../images/buses/amenities-washroom.png);
+    background-repeat: no-repeat; }
+  .amenities .amenities-tv {
+    display: inline-block;
+    width: 29px;
+    height: 25px;
+    margin: 5px;
+    background-image: url(../images/buses/amenities-tv.png);
+    background-repeat: no-repeat; }
+  .amenities .amenities-coffee {
+    display: inline-block;
+    width: 23px;
+    height: 25px;
+    margin: 5px;
+    background-image: url(../images/buses/amenities-coffee.png);
+    background-repeat: no-repeat; }
+
+.vehicle-set-up-info .vehicle-set-up-info-label {
+  display: inline-block;
+  float: left;
+  margin: 0 5px; }
+
+.vehicle-set-up-info .available, .vehicle-set-up-info .booked, .vehicle-set-up-info .ladies, .vehicle-set-up-info .phone-reserved, .vehicle-set-up-info .quota {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  float: left; }
+
+.vehicle-set-up-info .available {
+  margin-left: 5px;
+  border: 1px solid #666666;
+  background-color: #ffffff; }
+
+.vehicle-set-up-info .booked {
+  border: 1px solid #666666;
+  background-color: #525252; }
+
+.vehicle-set-up-info .ladies {
+  border: 1px solid #d34799;
+  background-color: #ffffff; }
+
+.vehicle-set-up-info .phone-reserved {
+  border: 1px solid blue;
+  background-color: blue; }
+
+.vehicle-set-up-info .quota {
+  border: 1px solid red;
+  background-color: red; }
+
+.vehicle-booking-status, .vehicle-default-closing, .cancel-bus {
+  margin: 20px 0 10px 0; }
+
+.vehicle-booking-status-header, .vehicle-booking-status-attention {
+  display: inline-block; }
+
+.vehicle-booking-status-attention {
+  margin-left: 10px;
+  color: red;
+  font-weight: bold; }
+
+.vehicle-default-closing-emphasis {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: bold; }
+
+.cruiser-type-one {
+  position: relative;
+  display: block;
+  width: 410px;
+  max-width: 100%;
+  height: 2395px;
+  /* transform: rotate(90deg); */
+  background: url(../images/cruiser/cruiserOne.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+  .cruiser-type-one .cruiser-seat {
+    border: 1px solid black;
+    width: 66px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px; }
+  .cruiser-type-one .seat-allocation-container-left {
+    position: absolute;
+    top: 453px;
+    left: 58px; }
+    .cruiser-type-one .seat-allocation-container-left .cruiser-seat {
+      background: #00a651; }
+  .cruiser-type-one .seat-allocation-container-middle-left {
+    position: absolute;
+    top: 453px;
+    left: 135px; }
+    .cruiser-type-one .seat-allocation-container-middle-left .cruiser-seat {
+      width: 50px;
+      background: rgba(152, 195, 233, 0.5); }
+  .cruiser-type-one .seat-allocation-container-middle-right {
+    position: absolute;
+    top: 453px;
+    left: 197px; }
+    .cruiser-type-one .seat-allocation-container-middle-right .cruiser-seat {
+      width: 50px;
+      background: rgba(152, 195, 233, 0.5); }
+  .cruiser-type-one .seat-allocation-container-right {
+    position: absolute;
+    top: 453px;
+    left: 258px; }
+    .cruiser-type-one .seat-allocation-container-right .cruiser-seat {
+      background: #00a651; }

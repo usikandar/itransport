@@ -1,0 +1,167 @@
+.form-enter-seats {
+	margin: 10px 0;
+}
+
+.vehicle-set-up {
+    margin: 0 15px;
+}
+.big-bus-container {
+    margin-top: 15px;
+}
+
+.big-bus {
+    position: relative;
+    display: block;
+    width: 700px;
+    height: 315px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding: 12px;
+    background: #8da4b2;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    &::after {
+        @include clearfix;
+    }
+    .bus-label-upper {
+        position: absolute;
+        display: inline-block;
+        left: 10px;
+        top: 24%;
+        height: 121px;
+        width: 25px;
+        background-image: url(../images/buses/upper-label.png);
+        background-repeat: no-repeat;
+    }
+    .big-bus-left-part {
+        width: 10%;
+        float: left;
+    }
+    .big-bus-right-part {
+        width: 90%;
+        float: right;
+        div {
+            height: 35px;
+        }
+    }
+    .vehicle-steering-wheel {
+        display: block;
+        margin-top: 230px;
+        width: 29px;
+        height: 29px;
+        padding: 30px;
+        background: url(../images/buses/steering-wheel.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .vehicle-seat {
+        display: inline-block;
+        width: 27px;
+        height: 40px;
+        padding: 5px;
+        margin: 4px;
+        float: left;
+        text-align: center;
+        cursor: pointer;
+        background-image: url(../images/buses/vehicle-seat-free.png);
+        background-repeat: no-repeat;
+        &.selected {
+            color: white;
+            font-weight: bold;
+            background-image: url(../images/buses/vehicle-seat-selected.png);
+        }
+    }
+}
+
+
+
+.amenities {
+	display: block;
+    width: 100%;
+    margin: 10px 0;
+    text-align: right;
+    .amenities-washroom {
+        display: inline-block;
+        width: 23px;
+        height: 26px;
+        margin: 5px;
+        background-image: url(../images/buses/amenities-washroom.png);
+        background-repeat: no-repeat;
+    }
+    .amenities-tv {
+        display: inline-block;
+        width: 29px;
+        height: 25px;
+        margin: 5px;
+        background-image: url(../images/buses/amenities-tv.png);
+        background-repeat: no-repeat;
+    }
+    .amenities-coffee {
+        display: inline-block;
+        width: 23px;
+        height: 25px;
+        margin: 5px;
+        background-image: url(../images/buses/amenities-coffee.png);
+        background-repeat: no-repeat;
+    }
+}
+
+.vehicle-set-up-info {
+    .vehicle-set-up-info-label {
+        display: inline-block;
+        float: left;
+        margin: 0 5px;
+    }
+    .available, .booked, .ladies, .phone-reserved, .quota {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 5px;
+        float: left;
+    }
+    .available {
+        margin-left: 5px;
+        border: 1px solid #666666;
+        background-color: #ffffff;
+    }
+    .booked {
+        border: 1px solid #666666;
+        background-color: #525252;
+    }
+    .ladies {
+        border: 1px solid #d34799;
+        background-color: #ffffff;
+    }
+    .phone-reserved {
+        border: 1px solid blue;
+        background-color: blue;
+    }
+    .quota {
+        border: 1px solid red;
+        background-color: red;
+    }
+}
+
+
+
+.vehicle-booking-status, .vehicle-default-closing, .cancel-bus {
+    margin: 20px 0 10px 0;
+}
+
+.vehicle-booking-status-header, .vehicle-booking-status-attention {
+	display: inline-block;
+}
+.vehicle-booking-status-attention {
+	margin-left: 10px;
+	color: red;
+	font-weight: bold;
+}
+.vehicle-default-closing-emphasis {
+	display: inline-block;
+	margin-left: 10px;
+	font-weight: bold;
+}
